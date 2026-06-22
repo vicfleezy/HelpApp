@@ -1,16 +1,21 @@
-# This is a sample Python script.
+# Initialize the window width and window height
+windowwidth = 2.0
+windowheight = 3.0
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Prompt for and read the wall width
+Wallwidth = input("Wall width: ")
+print()
 
+# Prompt for and read the wall height
+Wallheight = input("Wall height: ")
+print()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Prompt for and read the number of windows
+numberofwindows = input("Number of windows: ")
+print()
 
+# Compute the area of the wall without the windows
+area = str(Wallwidth * Wallheight)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print()
+print("Area:", area)
